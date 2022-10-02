@@ -1,0 +1,189 @@
+/**welcome to my code, I hope this is easy to understand**/
+
+/**body**/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 18px;
+    font-color: #77a466;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 21px;
+    color: #000000;
+}
+
+a:visited {
+  color: #77a466;
+}
+
+/**grid**/
+
+.top-section,
+.bottom-section {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.first-section,
+.second-section,
+.third-section {
+    width: 399px;
+    float: left;
+    border-top: 1px solid #dedbdc;
+}
+
+/**header**/
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    margin: 0;
+    padding: 38px 25px 0;
+}
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 20px 0;
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 10px;
+    display: inline;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:#77a466;
+}
+
+/**sections**/
+
+.top-section,
+.bottom-section {
+    margin: 0 auto;
+    clear: both;
+}
+
+.bottom-section p {
+  padding: 0 30px;
+}
+
+.top-image {
+    height: auto;
+    float: left;
+}
+.top-image img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+.top-title {
+    height: auto;
+    float: left;
+}
+.top-title h2 {
+    text-align: left;
+    padding: 5px 0;
+    color: #77a466;
+}
+.top-title p {
+    padding: 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.first-section,
+.section-section,
+.third-section {
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #dedbdc;
+}
+
+.first-section h3 {
+    padding: 10px 0;
+}
+
+.second-section {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+.second-section h3,
+.third-section h3 {
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+.menu li {
+    padding: 10px 0;
+    color:#77a466;
+
+}
+
+.reviews {
+    color: #333;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 10px 0;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+/**footer**/
+
+footer {
+    height: 50px;
+    border-top: 1px solid #dedbdc;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+footer span {
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color: #77a466;
+    font-size: 14px;
+}
